@@ -5,136 +5,150 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    }
-    
-    main {
+}
+
+main {
     flex-grow: 1;
     padding: 50px;
-    }
-    
-    /* Header */
-    
-    header {
+}
+
+/* Header */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    line-height: 1.5;
+}
+
+header {
     background-color: #0C1E3F;
+    background-size: cover;
+    background-position: center;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    }
-    
-    header h1 {
+    padding: 50px;
+}
+
+header h1 {
     margin: 0;
-    }
-    
-    nav ul {
+}
+
+nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
-    }
-    
-    nav ul li {
+}
+
+nav ul li {
     margin-left: 20px;
-    }
-    
-    nav ul li a {
+}
+
+nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    }
-    
-    /* Sections */
-    
-    section {
+}
+
+/* Sections */
+
+section {
     margin-bottom: 50px;
-    }
-    
-    section h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-    }
-    
-    section ul {
+    padding: 50px;
+}
+
+section h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+section ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    }
-    
-    section li {
-    margin-bottom: 20px;
-    }
-    
-    section h3 {
+}
+
+section li {
+    margin-bottom: 30px;
+}
+
+section h3 {
     margin: 0;
-    font-size: 1.5em;
-    margin-bottom: 10px;
-    }
-    
-    /* About Me */
-    
-    #about {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+/* About Me */
+
+#about {
+    width: 100%;
+    grid-column: 2/3;
     background-color: #E6F0F5;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
-    }
-    
-    #about h2 {
-    flex-basis: 100%;
+    /* flex-basis: 66.66%; */
+}
+
+
+#about h2 {
     font-size: 2em;
     margin-bottom: 20px;
-    }
-    
-    #about p {
-    flex-basis: 100%;
+}
+
+#about p {
     margin: 0;
-    }
-    
-    #familyPhoto {
+}
+
+#familyPhoto {
     margin: 20px;
     width: 300px;
     height: 300px;
     border-radius: 30%;
     overflow: hidden;
-    }
-    
-    #familyPhoto img {
+    float: left;
+}
+
+#familyPhoto img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    }
-    
-    /* Education */
-    
-    #education {
-    background-color: #E6F0F5;
-    padding: 20px;
+}
+
+
+/* Education */
+
+#education {
+    background-color: #f8f8f8;
+    padding: 50px;
     margin-bottom: 50px;
-    }
-    
-    #education h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-    }
-    
-    #education p {
+}
+
+#education h2 {
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+
+#education p {
     margin: 0;
-    }
-    
-    /* Footer */
-    
-    footer {
+    margin-bottom: 20px;
+}
+
+/* Footer*/
+
+footer {
     background-color: #0C1E3F;
     color: white;
     text-align: center;
     padding: 20px;
-    }
-    
-    footer p {
+}
+
+footer p {
     margin: 0;
-    }
-
-
-
-
+}
