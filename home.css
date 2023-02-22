@@ -86,26 +86,6 @@ section h3 {
 
 /* About Me */
 
-#about {
-    width: 100%;
-    grid-column: 2/3;
-    background-color: #E6F0F5;
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    /* flex-basis: 66.66%; */
-}
-
-
-#about h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
-#about p {
-    margin: 0;
-}
-
 #familyPhoto {
     margin: 20px;
     width: 300px;
@@ -138,6 +118,20 @@ section h3 {
 #education p {
     margin: 0;
     margin-bottom: 20px;
+}
+
+/* Projects */
+#projects {
+    background-color: #f8f8f8;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+/* Work */
+#work {
+    background-color: #f8f8f8;
+    padding: 50px;
+    margin-bottom: 50px;
 }
 
 /* Footer*/
